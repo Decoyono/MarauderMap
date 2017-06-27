@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+
+  label {
+    display: block;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 1em;
+  }
+
+  form div {
+    margin: 1em;
+    display: inline-block;
+  }
+}
+
+#canvas {
+  position: absolute;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/1c/d9/c5/1cd9c584f78937cae0e1fdb6e9460e59.jpg);
+  //  background-image: url(http://4.bp.blogspot.com/-4tHsTpBVpmM/UBCC8XjsnYI/AAAAAAAAAbU/nZgL0FloHd8/s1600/Complete+Marauders%27+Map+Merged+copy+condensed.jpg);
+  // background-image: url(http://i.imgur.com/LMk8CfL.png);
+  width: 100%;
+
+  height: 100%;
+}

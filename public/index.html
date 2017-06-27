@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+    <title>marauders</title>
+    <script defer src="/bundle.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <!--<script src="https://maps.google.com/maps/api/js?sensor=true"></script>-->
+    <!--<script> 
+      x = navigator.geolocation;
+
+      x.getCurrentPosition(success, failure)
+
+      function success(position) {
+        var mylat = position.coords.latitutde
+        var mylong = position.coords.longitute;
+        $('#lat').html(mylat);
+        $('#long)').html(myLong);
+      }
+      function failure() {
+        $('#lat').html("<p>It didnt' work</p>")
+
+      }
+      </script>-->
+
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="out">
+      <canvas id="canvas" width= "4000" height="3000">
+        </canvas>
+        
+    </div>
+    <img id= "foot" height= "75" width= "75" src=leftfoot.png style="visibility: hidden; display:inline;">
+    <img id= "floor" height= "500" width= "500" src=FloorPlan.png style="visibility: hidden; display:inline;">
+  </body>
+</html>
+
